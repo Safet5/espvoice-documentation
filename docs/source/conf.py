@@ -2,12 +2,12 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'ESPVoice'
+copyright = '2023, ST5'
+author = 'The ESPVoice Team'
 
-release = '0.1'
-version = '0.1.0'
+version = '1.0.0'
+release = version
 
 # -- General configuration
 
@@ -17,6 +17,7 @@ extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
+    'sphinxcontrib.spelling',
 ]
 
 intersphinx_mapping = {
@@ -31,5 +32,7 @@ templates_path = ['_templates']
 
 html_theme = 'sphinx_rtd_theme'
 
+html_logo = "_static/espvoice_logo-100x100.png"
+html_favicon = "_static/favicon.ico"
 # -- Options for EPUB output
 epub_show_urls = 'footnote'

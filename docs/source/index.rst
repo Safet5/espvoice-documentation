@@ -1,13 +1,7 @@
-Welcome to Lumache's documentation!
+ESPVoice Usage Guide
 ===================================
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
-
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
+The documentation details how to use ESPVoice hardware with Home Assistant to control your connected devices via voice command. 
 
 .. note::
 
@@ -17,6 +11,10 @@ Contents
 --------
 
 .. toctree::
-
-   usage
-   api
+   :maxdepth: 2
+   
+   introduction
+   get-started
+   extra-features
+   additional-information
+   appendix
