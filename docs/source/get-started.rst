@@ -15,7 +15,7 @@ First power on
 
 When ESPVoice is first powered on, it will enter a Wake Word learning phase, followed by a Voice Command learning phase for Control 01.
 
-A wake word is a specific phrase that prompts ESPVoice to wake up and listen for the user's voice commands. Users will be instructed to speak the wake word three times in order to complete the wake word learning process.
+A wake word is a specific phrase that prompts ESPVoice to wake up and listen for the user's voice commands. Users will be instructed to speak the wake word three times in order to complete the wake word learning process. 
 
 After completing the wake word learning, ESPVoice will prompt for a voice command input for Control 01. Similarly user will be prompted to speak the voice command three times in order to complete the voice command learning process.
 
@@ -85,12 +85,49 @@ Testing ESPVoice
 
 To test whether you have successfully integrated ESPVoice into your Home Assistant:
 
-#. Press "Firmware version" button in the ESPVoice control panel
+#. Go to your Home Assistant -> Settings -> Devices & Services and select the espvoice device.
 
-#. Check the "Text Sensor" of ESPVoice for a valid firmware version, for example: V1.0.0. 
-   See :ref:`ESPVoice Firmware Versions` for version info.
+    .. image:: images/test-espvoice-integration-1.png
 
+#. Locate "Firmware version" button at the bottom of the "Controls" buttons panel
+
+    .. image:: images/test-espvoice-integration-2.png
+
+
+#. Press "Firmware version" button and check the "Text Sensor" of ESPVoice for a valid firmware version, for example: v1.0.0. 
+
+    .. image:: images/test-espvoice-integration-3.png
+
+
+   See :ref:`ESPVoice Firmware Versions` for complete list of version info.
 
 Creating your first voice activated automation
 ----------------------------------------------
-Coming soon.
+
+The following steps will guide you to create a dummy automation using espvoice. We are going to activate the prerecorded door bell PA in espvoice using voice control 01:
+
+#. Go to Home Assistant -> Setings -> Automation & Scenes and press the "Create Automation" button. Select "Create new automation" on the pop up window
+
+    .. image:: images/espvoice-create-automation-1.png
+
+
+#. Press "Add trigger" and select "state"
+
+    .. image:: images/espvoice-create-automation-2.png
+
+#. Select "espvoiceuart" as entity. Input "101" in the "To" input box. (See :ref:`espvoice_control_text_output` for complete list of output values )
+
+    .. image:: images/espvoice-create-automation-3.png
+
+
+#. | Press "Add action" and select "Call service". 
+   | Select "Button: Press" in service input box. 
+   | Press "+ Choose entity" button and select "[PA 14]-Door Bell" as target.
+
+    .. image:: images/espvoice-create-automation-4.png
+
+#. Press "Save" and give it a name to create the automation.
+
+Wake up ESPVoice with the wake word, and say the voice command. You should hear a door bell chime from ESPVoice speaker. 
+
+Congratulations! You have successfully created your first automation using ESPVoice command. 
