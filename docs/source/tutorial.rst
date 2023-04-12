@@ -30,6 +30,13 @@ To manually retrain or change the wake word, follow these steps:
 #. Once the learning process is complete, ESPVoice will respond with "I'm here" upon detecting the trained wake word. ESPVoice will also send a "900" text to Home Assistant.
 
 
+.. raw:: html
+
+    <div style="position: relative; margin-bottom: 2em; height: 0; overflow: hidden; max-width: 100%; height: auto;" align="center">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/keAPAAHiSBo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+
+
 .. _learn_voice_command:
 
 Learn Voice Command
@@ -59,7 +66,41 @@ Users are free to assign any command to any of the voice command slots. For exam
 
 #. If the recognition is successful, ESPVoice will respond with "Okay", and it will also send a "101" text (for Control 01) to Home Assistant.
 
+.. raw:: html
+    
+    <div style="position: relative; margin-bottom: 2em; height: 0; overflow: hidden; max-width: 100%; height: auto;" align="center">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/vpoq-K7_CuE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
 
+Calling for Emergency Help
+--------------------------
+
+.. raw:: html
+    
+    <div style="position: relative; margin-bottom: 2em; height: 0; overflow: hidden; max-width: 100%; height: auto;" align="center">
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/OWNcd-EdNEg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+
+Public Announcement System
+--------------------------
+
+.. raw:: html
+    
+    <div style="position: relative; margin-bottom: 2em; height: 0; overflow: hidden; max-width: 100%; height: auto;" align="center">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/6gzgkdHk-8U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+
+
+
+Scene Confirmation Setup
+------------------------
+
+.. raw:: html
+    
+    <div style="position: relative; margin-bottom: 2em; height: 0; overflow: hidden; max-width: 100%; height: auto;" align="center">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/HpVG4Bn-rsQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
 
 Resetting ESPVoice
 ------------------

@@ -21,6 +21,13 @@ After completing the wake word learning, ESPVoice will prompt for a voice comman
 
 Congratulations! You have successfully completed the setup process for ESPVoice. You're now ready to move on to the next step to integrate ESPVoice into your Home Assistant.
 
+
+.. raw:: html
+    
+    <div style="position: relative;  margin-bottom: 2em; height: 0; overflow: hidden; max-width: 100%; height: auto;" align="center">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/-nxbrpbBXz4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+
 Connecting to Home Assistant
 ----------------------------
 
@@ -46,7 +53,7 @@ Connecting to Home Assistant
     .. image:: images/espvoice-wifi-settings-2.png
 
     |
-    
+
     ESPVoice will attempt to join your wifi network. 
 
     .. image:: images/espvoice-wifi-settings-3.png
