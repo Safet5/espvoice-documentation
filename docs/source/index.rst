@@ -15,6 +15,8 @@ Contents
    
    introduction
    get-started
+   tutorial
    extra-features
+   software-and-driver
    additional-information
    appendix
