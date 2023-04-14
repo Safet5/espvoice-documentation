@@ -2,7 +2,7 @@ Tutorial
 ========
 
 
-.. _learn_wake_words:
+.. _learn_wake_word:
 
 Learn Wake Word
 ---------------

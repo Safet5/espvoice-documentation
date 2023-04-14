@@ -67,9 +67,14 @@ Connecting to Home Assistant
     .. image:: images/connect-to-ha-step4.png
       :align: center
 
-#. Home Assistant will automatically detects "ESPVoice-XXXXXX" as a new device. Click on "Add Device" to add ESPVoice to your Home Assistant.
+#. Home Assistant will automatically detects "ESPVoice-XXXXXX" as a new device. Click on "Configure" to add ESPVoice to your Home Assistant.
 
-    .. image:: images/connect-to-ha-step5.png
+    .. image:: images/connect-to-ha-step5-1.png
+      :align: center
+
+    |
+    
+    .. image:: images/connect-to-ha-step5-2.png
       :align: center
 
 #. If no new device is detected, you may manually add it via "Add Integration" -> "ESPHome"-> enter the IP address of ESPVoice connected to your wifi network
@@ -94,7 +99,7 @@ To test whether you have successfully integrated ESPVoice into your Home Assista
     .. image:: images/test-espvoice-integration-2.png
 
 
-#. Press "Firmware version" button and check the "Text Sensor" of ESPVoice for a valid firmware version, for example: v1.0.0. 
+#. Press "Firmware version" button and check the "Text Sensor" of ESPVoice for a valid firmware version, for example: v2.3.40. 
 
     .. image:: images/test-espvoice-integration-3.png
 

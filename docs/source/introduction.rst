@@ -6,29 +6,37 @@ Introduction
   :align: center
 
 
-The ESPVoice is a smart offline speech recognition device which is developed to work under ESPHome and Home Assistant platforms. It is equipped with an offline voice recognition module to perform speech detection and recognition for smart home applications. In addition, the voice recognition module is configured to execute self-learning exercises, to improve speech detection and recognition, from any language or dialects used by the users. All the detection and recognition outputs are transmitted to ESPHome or Home Assistant via an ESP32 module. 
+The ESPVoice is a smart offline speech recognition device designed to work under ESPHome and Home Assistant platforms. It is equipped with an offline voice recognition module that performs speech detection and recognition for various smart home applications. ESPVoice is capable of training and recognizing speech in any language or dialect spoken by the user. All the detection and recognition outputs are transmitted to ESPHome or Home Assistant via an ESP32 module. 
 
-Compare to existing smart speakers, ESPVoice offers the following advantages:
+Compare to existing smart speakers, ESPVoice offers several advantages, such as:
 
-* **Fast Recognition:** Built-in AI speech recognition module for instant local speech detection and recognition. No internet required!
-* **Customized Recognition:**  Customize your own voice commands and activate it with any name you want! AI speech recognition module is trained using user's own voices in any languages or dialects. 
-* **Fully open source and customizable:** Integrated with an ESP32 module for WIFI & Bluetooth data communication. Good compatibility with any open-source platforms!  
-
+* **Fast Recognition:** It comes equipped with a built-in AI speech recognition module, enabling instant local speech detection and recognition without the need for internet connectivity.
+* **Customized Recognition:**  Users can create their own voice commands and activate them with any desired name. The AI speech recognition module can be trained using the user's own voices in any language or dialect.
+* **Open source hardware and customizable:** ESPVoice is integrated with an ESP32 module for WIFI and Bluetooth data communication, making it highly compatible with various open-source platforms. Users are able to reprogram the ESP32 module to fit to their specific project requirements. 
 
 Features
 ---------
 
-* Self-learning capability: Recognition AI can be trained using your voice in any languages or dialects  
+* Self-learning capability: ESPVoice can be trained using your voice in any languages or dialects  
 * 12 x Customizable Voice Control Commands
-* 1 x Customizable Wake Word/Phrase 
+* 1 x Customizable Wake Word
 * 1 x Call for Emergency Help
 * 4 x Scene Confirmation Controls 
 * 14 x Standard announcements used for PA system
 * ESP32 provides WiFi/Bluetooth connectivity
 * Bluetooth Proxy for Home Assistant
 * Attached with a mono 3W tweeter for speech recognition response and PA applications
-* Flashable with your own ESP device settings
+* ESPVoice is reprogrammable
 * Powered with USB-C Port (Power supply unit is not supplied)
+
+Where to buy?
+-------------
+
+Head to our |online shop| to purchase ESPVoice!
+
+.. |online shop| raw:: html
+
+   <a href="https://esp-voice.com/shop/" target="_blank">online shop</a>
 
 How does it work?
 -----------------
@@ -36,19 +44,17 @@ How does it work?
 .. image:: images/intro-how-it-works.png
   :width: 800
   
-ESPVoice can detect 1 customizable wake words and recognize up to 13 customizable voice commands. 
+ESPVoice can detect 1 customizable wake word and recognize up to 13 customizable voice commands. 
 
-**Wake words**
+**Wake word**
 
-The wake word for ESPVoice is fully customizable and can set to any languages, for e.g. "Hey ESPVoice", "Jarvis", "Sr. Elástico" etc, as long as you can pronounce it! After the ESPVoice is powered up for the first time, wake word learning process will be started. Users are instructed to speak the "Wake words" for 3 times, to complete the wake word learning and to activate the device.
-
-For more information, see :ref:`learn_wake_words`.
+| ESPVoice's wake word is fully customizable and can be set to any languages, for example "Hey ESPVoice", "Jarvis", "Sr. Elástico" etc. 
+| For more information, see :ref:`learn_wake_word`.
 
 **Voice commands**
 
-ESPVoice can be trained to recognize 12 customizable action voice commands + 1 "call-for-emergency" voice command. Users can initiate the learning of each customizable voice command by pressing the "Learning Voice Command" buttons in Home Assistant/ESPHome interface. 
-
-For more information, see :ref:`learn_voice_command`.
+| ESPVoice can be trained to recognize 12 customizable action voice commands + 1 "call-for-emergency" voice command. Users can initiate the learning of each customizable voice command using the "Learning Voice Command" buttons in Home Assistant/ESPHome interface. 
+| For more information, see :ref:`learn_voice_command`.
 
 **Voice Detection and Recognition**
 
@@ -61,3 +67,6 @@ Similarly, users can set any Emergency Phrase to trigger Emergency Action in ESP
 
 
 Head on to the next section to :ref:`get started <getting-started>` with ESPVoice!
+
+
+
