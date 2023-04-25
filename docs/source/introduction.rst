@@ -29,14 +29,6 @@ Features
 * ESPVoice is reprogrammable
 * Powered with USB-C Port (Power supply unit is not supplied)
 
-Where to buy?
--------------
-
-Head to our |online shop| to purchase ESPVoice!
-
-.. |online shop| raw:: html
-
-   <a href="https://esp-voice.com/shop/" target="_blank">online shop</a>
 
 How does it work?
 -----------------
@@ -70,3 +62,11 @@ Head on to the next section to :ref:`get started <getting-started>` with ESPVoic
 
 
 
+Where to buy?
+-------------
+
+Head to our |online shop| to check out ESPVoice!
+
+.. |online shop| raw:: html
+
+   <a href="https://esp-voice.com/shop/" target="_blank">online shop</a>

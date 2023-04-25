@@ -15,9 +15,9 @@ First power on
 
 When ESPVoice is first powered on, it will enter a Wake Word learning phase, followed by a Voice Command learning phase for Control 01.
 
-A wake word is a specific phrase that prompts ESPVoice to wake up and listen for the user's voice commands. Users will be instructed to speak the wake word three times in order to complete the wake word learning process. 
+A wake word is a specific phrase that prompts ESPVoice to wake up and listen for the user's voice commands. Users will be instructed to speak the wake word two times in order to complete the wake word learning process. 
 
-After completing the wake word learning, ESPVoice will prompt for a voice command input for Control 01. Similarly user will be prompted to speak the voice command three times in order to complete the voice command learning process.
+After completing the wake word learning, ESPVoice will prompt for a voice command input for Control 01. Similarly user will be prompted to speak the voice command twice in order to complete the voice command learning process.
 
 Congratulations! You have successfully completed the setup process for ESPVoice. You're now ready to move on to the next step to integrate ESPVoice into your Home Assistant.
 
